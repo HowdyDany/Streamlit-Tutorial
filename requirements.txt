@@ -4,4 +4,4 @@ streamlit==1.1.0
 yfinance==0.1.63
 requests==2.14.2
 lxml==4.5.1
-python -m pip install --upgrade pip
+-m pip install --upgrade pip
