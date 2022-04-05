@@ -20,8 +20,9 @@ Stock Application
 """)
 Symbol = st.text_input("Enter your favorite stock", 'AAPL')
 Data = yf.Ticker(Symbol)
-end = time.strftime("%Y-%m-%d")
-df = Data.history(period='1d', start='2015-01-01', end=end)
+# end = time.strftime("%Y-%m-%d")
+final = '2022-01-01
+df = Data.history(period='1d', start='2015-01-01', end=final)
 st.line_chart(df.Close)
 st.line_chart(df.Volume)
 st.table(df.tail())
