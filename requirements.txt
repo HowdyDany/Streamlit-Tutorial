@@ -2,6 +2,6 @@ pandas==0.25.2
 numpy==0.1.54
 streamlit==1.1.0
 yfinance==0.1.63
-Python >= 2.7, 3.4+
-requests >= 2.14.2
-lxml >= 4.5.1
+Python>=2.7, 3.4+
+requests>=2.14.2
+lxml>=4.5.1
