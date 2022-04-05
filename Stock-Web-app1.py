@@ -1,7 +1,7 @@
 # This app is for educational purpose only. Insights gained is not financial advice. Use at your own risk!
 import streamlit as st
 import pandas as pd
-import time
+# import time
 import yfinance as yf
 #---------------------------------#
 # New feature (make sure to upgrade your streamlit library)
